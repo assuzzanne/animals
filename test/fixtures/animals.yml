@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  longevity: 1
+  preys_id: MyText
+  predators_id: MyText
+
+two:
+  name: MyText
+  longevity: 1
+  preys_id: MyText
+  predators_id: MyText

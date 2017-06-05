@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+
+<p>
+  <strong>Name:</strong>
+  <%= @animal.name %>
+</p>
+
+<p>
+  <strong>Longevity:</strong>
+  <%= @animal.longevity %>
+</p>
+
+<p>
+  <strong>Preys:</strong>
+	<% @preys.each do |prey| %>
+	<%= prey.name %>
+	<% end %>
+</p>
+
+<p>
+	<strong>Predators:</strong>
+	<% @predators.each do |predator| %>
+	<%= predator.name %>
+	<% end %>
+</p>
+
+<%= link_to 'Edit', edit_animal_path(@animal) %> |
+<%= link_to 'Back', animals_path %>
